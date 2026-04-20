@@ -4,7 +4,9 @@ An opinionated open-source playbook for designing, building, and shipping polish
 
 Built for intermediate solo builders who already know how to compile an app, but want sharper judgment around SwiftUI product UI, clean native design, App Store readiness, and indie shipping quality.
 
-Authored by [@phrypy on Instagram](https://instagram.com/phrypy) and [khbyong on GitHub](https://github.com/khbyong).
+Authored by [@phrypy](https://instagram.com/phrypy).
+
+Published on GitHub at [khbyong/ios-app-playbook](https://github.com/khbyong/ios-app-playbook).
 
 ## What This Repo Is
 
@@ -20,6 +22,15 @@ It is a practical iOS playbook with four layers:
   - Fast review passes before shipping or submitting
 - `references/`
   - Canonical Apple links and source material worth keeping close
+
+The content is organized around three outcomes:
+
+- `Design`
+  - native structure, navigation, forms, settings, empty states, accessibility
+- `Polish`
+  - interface feel, motion restraint, hierarchy, icon clarity, brand consistency
+- `Ship`
+  - App Store readiness, listing quality, release flow, review-risk reduction
 
 ## Who This Is For
 
@@ -47,7 +58,14 @@ This repo is not aimed at:
 - `skills/ios-navigation-and-ia`
 - `skills/ios-forms-and-input-design`
 - `skills/ios-motion-and-microinteractions`
+- `skills/ios-interface-polish`
 - `guides/how-to-make-swiftui-apps-feel-native.md`
+
+### If the product works but still feels under-polished
+
+- `skills/ios-interface-polish`
+- `skills/ios-app-icon-optimization`
+- `skills/ios-app-icon-and-brand-system`
 
 ### If your Settings or sync flows feel risky or unclear
 
@@ -57,8 +75,10 @@ This repo is not aimed at:
 ### If you are getting close to shipping
 
 - `skills/app-store-readiness`
+- `skills/ios-app-store-optimization`
 - `skills/solo-ios-release-flow`
 - `checklists/app-store-preflight.md`
+- `checklists/app-store-listing-review.md`
 - `checklists/accessibility-review.md`
 
 ## Skills
@@ -81,20 +101,27 @@ This repo is not aimed at:
   - Make onboarding, empty states, and first-session UX clearer and calmer.
 - `ios-motion-and-microinteractions`
   - Add subtle motion, feedback, and haptics without making the app feel noisy.
+- `ios-interface-polish`
+  - Improve spacing, hierarchy, radii, feedback, and the invisible details that make apps feel finished.
 - `ios-adaptive-layout`
   - Handle iPhone, iPad, safe areas, readable width, and layout changes more cleanly.
 - `ios-accessibility-design-review`
   - Review Dynamic Type, contrast, hit targets, VoiceOver, and reduced motion support.
+- `ios-app-icon-optimization`
+  - Make the app icon clearer, more distinctive, and better suited to App Store browse and search.
 - `ios-app-icon-and-brand-system`
   - Shape an app icon, lightweight brand system, and marketing consistency that still feel native.
 - `app-store-readiness`
   - Preflight metadata, privacy, capabilities, and review risk.
+- `ios-app-store-optimization`
+  - Tighten App Store positioning, metadata, icon, and screenshot judgment without turning into generic ASO spam.
 - `solo-ios-release-flow`
   - Run a sane release loop from local verification to TestFlight and App Store submission.
 
 ## Guides
 
 - [How To Design A Clean iOS Settings Screen](./guides/how-to-design-a-clean-ios-settings-screen.md)
+- [How To Design An iOS App Icon That Gets Tapped](./guides/how-to-design-an-ios-app-icon-that-gets-tapped.md)
 - [How To Make SwiftUI Apps Feel Native](./guides/how-to-make-swiftui-apps-feel-native.md)
 - [How To Prep An Indie iOS App For App Store Review](./guides/how-to-prep-an-indie-ios-app-for-app-store-review.md)
 
@@ -102,6 +129,7 @@ This repo is not aimed at:
 
 - [Clean iOS UI Review](./checklists/clean-ios-ui-review.md)
 - [App Store Preflight](./checklists/app-store-preflight.md)
+- [App Store Listing Review](./checklists/app-store-listing-review.md)
 - [Accessibility Review](./checklists/accessibility-review.md)
 
 ## References
