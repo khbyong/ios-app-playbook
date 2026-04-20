@@ -1,0 +1,44 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1140" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#221915"/>
+      <stop offset="1" stop-color="#171311"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="224" y1="164" x2="404" y2="344" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A1A"/>
+      <stop offset="1" stop-color="#E85D04"/>
+    </linearGradient>
+    <filter id="shadow" x="150" y="110" width="980" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.03 0 0 0 0 0.02 0 0 0 0.45 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="1112" cy="124" r="160" fill="#2B211D" fill-opacity="0.75"/>
+  <circle cx="106" cy="546" r="132" fill="#201814" fill-opacity="0.9"/>
+  <g filter="url(#shadow)">
+    <rect x="184" y="136" width="912" height="356" rx="32" fill="#1F1714"/>
+    <rect x="184.75" y="136.75" width="910.5" height="354.5" rx="31.25" stroke="#3B2C26" stroke-width="1.5"/>
+    <rect x="224" y="176" width="180" height="180" rx="40" fill="url(#accent)"/>
+    <path d="M298 215H337C392 215 433 255 433 309C433 363 392 403 337 403H298C288.611 403 281 395.389 281 386V232C281 222.611 288.611 215 298 215Z" fill="#F7D0C1"/>
+    <path d="M314 255H337C369.585 255 393 277.415 393 310C393 342.585 369.585 365 337 365H314V255Z" fill="#E85D04"/>
+    <path d="M281 248C281 242.477 285.477 238 291 238H306V272H291C285.477 272 281 267.523 281 262V248Z" fill="#F7D0C1"/>
+    <path d="M281 312C281 306.477 285.477 302 291 302H306V336H291C285.477 336 281 331.523 281 326V312Z" fill="#F7D0C1"/>
+    <path d="M281 376C281 370.477 285.477 366 291 366H306V400H291C285.477 400 281 395.523 281 390V376Z" fill="#F7D0C1"/>
+    <text x="444" y="244" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="48" font-weight="700">iOS App Playbook</text>
+    <text x="444" y="292" fill="#F29B62" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="23" font-weight="600">Design, polish, and ship clean native iOS apps.</text>
+    <text x="444" y="340" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">Opinionated skills, guides, and checklists for SwiftUI builders</text>
+    <text x="444" y="372" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">who care about native feel, product judgment, and App Store quality.</text>
+    <rect x="444" y="408" width="166" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="473" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Design</text>
+    <rect x="626" y="408" width="150" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="661" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Polish</text>
+    <rect x="792" y="408" width="126" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="826" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Ship</text>
+  </g>
+</svg>

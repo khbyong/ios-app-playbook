@@ -1,0 +1,44 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#171311"/>
+  <text x="88" y="112" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="54" font-weight="700">Three ways into the playbook</text>
+  <text x="88" y="156" fill="#D0B5A8" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="24" font-weight="500">Fast paths for builders who want cleaner judgment, not more noise.</text>
+  <g>
+    <rect x="88" y="214" width="344" height="372" rx="28" fill="#201714"/>
+    <rect x="88.75" y="214.75" width="342.5" height="370.5" rx="27.25" stroke="#3B2C26" stroke-width="1.5"/>
+    <rect x="116" y="242" width="92" height="34" rx="17" fill="#2A1F1A"/>
+    <text x="139" y="265" fill="#F29B62" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="18" font-weight="700">START</text>
+    <text x="116" y="324" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">Build a new</text>
+    <text x="116" y="364" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">SwiftUI app</text>
+    <text x="116" y="424" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">Architecture, product UI, HIG,</text>
+    <text x="116" y="456" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">and the first screens that set tone.</text>
+    <text x="116" y="524" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">1. ios-app-architecture</text>
+    <text x="116" y="556" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">2. swiftui-product-ui</text>
+    <text x="116" y="588" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">3. ios-hig-design</text>
+  </g>
+  <g>
+    <rect x="468" y="214" width="344" height="372" rx="28" fill="#201714"/>
+    <rect x="468.75" y="214.75" width="342.5" height="370.5" rx="27.25" stroke="#3B2C26" stroke-width="1.5"/>
+    <rect x="496" y="242" width="92" height="34" rx="17" fill="#2A1F1A"/>
+    <text x="519" y="265" fill="#F29B62" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="18" font-weight="700">POLISH</text>
+    <text x="496" y="324" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">Make it feel</text>
+    <text x="496" y="364" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">more native</text>
+    <text x="496" y="424" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">Tighten navigation, forms, motion,</text>
+    <text x="496" y="456" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">and the invisible details that matter.</text>
+    <text x="496" y="524" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">1. ios-navigation-and-ia</text>
+    <text x="496" y="556" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">2. ios-interface-polish</text>
+    <text x="496" y="588" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">3. how-to-make-swiftui-apps-feel-native</text>
+  </g>
+  <g>
+    <rect x="848" y="214" width="344" height="372" rx="28" fill="#201714"/>
+    <rect x="848.75" y="214.75" width="342.5" height="370.5" rx="27.25" stroke="#3B2C26" stroke-width="1.5"/>
+    <rect x="876" y="242" width="74" height="34" rx="17" fill="#2A1F1A"/>
+    <text x="897" y="265" fill="#F29B62" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="18" font-weight="700">SHIP</text>
+    <text x="876" y="324" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">Prep for the</text>
+    <text x="876" y="364" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="34" font-weight="700">App Store</text>
+    <text x="876" y="424" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">Check listing quality, submission risk,</text>
+    <text x="876" y="456" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">and the release loop before launch.</text>
+    <text x="876" y="524" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">1. app-store-readiness</text>
+    <text x="876" y="556" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">2. ios-app-store-optimization</text>
+    <text x="876" y="588" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="700">3. app-store-preflight</text>
+  </g>
+</svg>

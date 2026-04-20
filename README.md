@@ -1,5 +1,7 @@
 # iOS App Playbook
 
+![iOS App Playbook Banner](./assets/ios-app-playbook-banner.svg)
+
 An opinionated open-source playbook for designing, building, and shipping polished iOS apps.
 
 Built for intermediate solo builders who already know how to compile an app, but want sharper judgment around SwiftUI product UI, clean native design, App Store readiness, and indie shipping quality.
@@ -81,6 +83,34 @@ This repo is not aimed at:
 - `checklists/app-store-listing-review.md`
 - `checklists/accessibility-review.md`
 
+## Recommended Paths
+
+![Recommended Paths Preview](./assets/ios-app-playbook-preview.svg)
+
+### Path 1: Build a new SwiftUI app
+
+1. `ios-app-architecture`
+2. `swiftui-product-ui`
+3. `ios-hig-design`
+
+Use this path when you are shaping the foundations, first screens, and product structure.
+
+### Path 2: Make an app feel more native
+
+1. `ios-navigation-and-ia`
+2. `ios-interface-polish`
+3. `guides/how-to-make-swiftui-apps-feel-native.md`
+
+Use this path when the app works, but the UX still feels generic, web-shaped, or slightly off.
+
+### Path 3: Prep for the App Store
+
+1. `app-store-readiness`
+2. `ios-app-store-optimization`
+3. `checklists/app-store-preflight.md`
+
+Use this path when you need tighter metadata, better listing judgment, and a clearer pre-submit loop.
+
 ## Skills
 
 - `ios-app-architecture`
@@ -125,6 +155,13 @@ This repo is not aimed at:
 - [How To Make SwiftUI Apps Feel Native](./guides/how-to-make-swiftui-apps-feel-native.md)
 - [How To Prep An Indie iOS App For App Store Review](./guides/how-to-prep-an-indie-ios-app-for-app-store-review.md)
 
+## Examples
+
+- [Examples Overview](./examples/README.md)
+- [Settings Sync Wording](./examples/settings-sync-wording.md)
+- [Empty State Next Action](./examples/empty-state-next-action.md)
+- [App Store Listing Tighten](./examples/app-store-listing-tighten.md)
+
 ## Checklists
 
 - [Clean iOS UI Review](./checklists/clean-ios-ui-review.md)
@@ -135,6 +172,18 @@ This repo is not aimed at:
 ## References
 
 - [Official Apple iOS Design Links](./references/official-ios-design-links.md)
+
+## Use This Playbook
+
+Paste this directly into your agent:
+
+```text
+Install the skills from https://github.com/khbyong/ios-app-playbook into my local skills directory and make them available in this session.
+```
+
+If this playbook helps, star the repo to support it and follow updates.
+
+Fork it if you want to adapt the skills into your own workflow or publish your own version.
 
 ## Install
 
