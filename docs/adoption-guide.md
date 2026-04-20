@@ -10,7 +10,7 @@ Start with:
 - `swiftui-product-ui`
 - `ios-debug-and-stabilize`
 
-Add `app-store-readiness` and `solo-ios-release-flow` once the product is approaching ship.
+Add `ios-hig-design`, `app-store-readiness`, and `solo-ios-release-flow` once the product is approaching polish and ship.
 
 ## Best Fit Projects
 

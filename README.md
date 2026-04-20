@@ -20,6 +20,8 @@ This repo is not aimed at total beginners, agency handoff docs, or large-team ar
   - Build product-facing SwiftUI screens with stronger hierarchy, polish, and UX judgment.
 - `ios-debug-and-stabilize`
   - Triage crashes, state bugs, concurrency issues, and shipping regressions methodically.
+- `ios-hig-design`
+  - Design iPhone and iPad interfaces that feel native, using Apple HIG principles for layout, navigation, motion, icons, and accessibility.
 - `app-store-readiness`
   - Preflight an app for App Store submission, metadata alignment, privacy, and review risk.
 - `solo-ios-release-flow`
@@ -54,6 +56,7 @@ skills/
   ios-app-architecture/
   swiftui-product-ui/
   ios-debug-and-stabilize/
+  ios-hig-design/
   app-store-readiness/
   solo-ios-release-flow/
 docs/
@@ -76,6 +79,7 @@ Start with the skill that matches the current phase:
 - New app or major refactor: `ios-app-architecture`
 - Screen work or UX polish: `swiftui-product-ui`
 - Bugs, crashes, regressions: `ios-debug-and-stabilize`
+- Native design review or iPhone/iPad UX decisions: `ios-hig-design`
 - Review prep: `app-store-readiness`
 - Shipping a build: `solo-ios-release-flow`
 
