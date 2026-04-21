@@ -2,223 +2,156 @@
 
 ![iOS App Playbook Banner](./assets/ios-app-playbook-banner.svg)
 
-An opinionated open-source playbook for designing, building, and shipping polished iOS apps.
+An open-source iOS playbook for intermediate solo builders.
 
-Built for intermediate solo builders who already know how to compile an app, but want sharper judgment around SwiftUI product UI, clean native design, App Store readiness, and indie shipping quality.
+**Who it's for:** Solo founders and indie iOS developers who can already build an app but want sharper judgment on SwiftUI product UI, native design, App Store quality, and shipping.
 
-Authored by [@phrypy](https://instagram.com/phrypy).
+**What it is:** A structured system of agent skills, guides, checklists, and examples organized around three outcomes: Design, Polish, Ship.
 
-Published on GitHub at [khbyong/ios-app-playbook](https://github.com/khbyong/ios-app-playbook).
+**What it is not:** A beginner Swift tutorial. A pile of random prompts. An enterprise architecture spec.
 
-## What This Repo Is
+Authored by [@phrypy](https://instagram.com/phrypy) · Published at [khbyong/ios-app-playbook](https://github.com/khbyong/ios-app-playbook)
 
-This is not just a pile of prompts or a random design dump.
+---
 
-It is a practical iOS playbook with four layers:
+## Recommended Path
 
-- `skills/`
-  - Reusable agent skills for architecture, UI, review, shipping, and native iOS design decisions
-- `guides/`
-  - Human-readable playbooks for common product design problems
-- `checklists/`
-  - Fast review passes before shipping or submitting
-- `references/`
-  - Canonical Apple links and source material worth keeping close
+One end-to-end path for building and shipping a polished iOS app:
 
-The content is organized around three outcomes:
+| Stage | Resource |
+|---|---|
+| 1. Architecture | [ios-app-architecture](./skills/ios-app-architecture/) |
+| 2. Product UI | [swiftui-product-ui](./skills/swiftui-product-ui/) |
+| 3. Native Feel | [ios-hig-design](./skills/ios-hig-design/) + [guide](./guides/how-to-make-swiftui-apps-feel-native.md) |
+| 4. Accessibility & Quality | [ios-accessibility-design-review](./skills/ios-accessibility-design-review/) + [checklist](./checklists/accessibility-review.md) |
+| 5. Polish | [ios-interface-polish](./skills/ios-interface-polish/) |
+| 6. App Store Preflight | [app-store-readiness](./skills/app-store-readiness/) + [checklist](./checklists/app-store-preflight.md) |
+| 7. Launch | [solo-ios-release-flow](./skills/solo-ios-release-flow/) |
 
-- `Design`
-  - native structure, navigation, forms, settings, empty states, accessibility
-- `Polish`
-  - interface feel, motion restraint, hierarchy, icon clarity, brand consistency
-- `Ship`
-  - App Store readiness, listing quality, release flow, review-risk reduction
+Use the full path for new apps. Jump to any stage when iterating on something specific.
 
-## Who This Is For
+---
 
-- solo founders and indie iOS builders
-- intermediate SwiftUI developers
-- product-minded engineers who care about native feel
-- builders shipping consumer apps, utilities, finance apps, creator tools, or productivity apps
+## Structure
 
-This repo is not aimed at:
+```
+skills/       Agent skills for architecture, UI, review, and shipping
+guides/       Human-readable playbooks for common product decisions
+checklists/   Fast review passes before shipping or submitting
+examples/     Short judgment samples showing playbook principles applied
+references/   Canonical Apple links worth keeping close
+```
 
-- total beginners learning Swift for the first time
-- enterprise architecture committees
-- web-to-mobile ports that want to keep web-native UX patterns intact
-
-## Start Here
-
-### If you are starting a new app
-
-- `skills/ios-app-architecture`
-- `skills/swiftui-product-ui`
-- `skills/ios-hig-design`
-
-### If your app works but doesn’t feel native enough
-
-- `skills/ios-navigation-and-ia`
-- `skills/ios-forms-and-input-design`
-- `skills/ios-motion-and-microinteractions`
-- `skills/ios-interface-polish`
-- `guides/how-to-make-swiftui-apps-feel-native.md`
-
-### If the product works but still feels under-polished
-
-- `skills/ios-interface-polish`
-- `skills/ios-app-icon-optimization`
-- `skills/ios-app-icon-and-brand-system`
-
-### If your Settings or sync flows feel risky or unclear
-
-- `skills/ios-settings-and-data-safety-ux`
-- `guides/how-to-design-a-clean-ios-settings-screen.md`
-
-### If you are getting close to shipping
-
-- `skills/app-store-readiness`
-- `skills/ios-app-store-optimization`
-- `skills/solo-ios-release-flow`
-- `checklists/app-store-preflight.md`
-- `checklists/app-store-listing-review.md`
-- `checklists/accessibility-review.md`
-
-## Recommended Paths
-
-![Recommended Paths Preview](./assets/ios-app-playbook-preview.svg)
-
-### Path 1: Build a new SwiftUI app
-
-1. `ios-app-architecture`
-2. `swiftui-product-ui`
-3. `ios-hig-design`
-
-Use this path when you are shaping the foundations, first screens, and product structure.
-
-### Path 2: Make an app feel more native
-
-1. `ios-navigation-and-ia`
-2. `ios-interface-polish`
-3. `guides/how-to-make-swiftui-apps-feel-native.md`
-
-Use this path when the app works, but the UX still feels generic, web-shaped, or slightly off.
-
-### Path 3: Prep for the App Store
-
-1. `app-store-readiness`
-2. `ios-app-store-optimization`
-3. `checklists/app-store-preflight.md`
-
-Use this path when you need tighter metadata, better listing judgment, and a clearer pre-submit loop.
+---
 
 ## Skills
 
-- `ios-app-architecture`
-  - Structure a solo-friendly SwiftUI codebase with clean boundaries.
-- `swiftui-product-ui`
-  - Build real product screens with stronger hierarchy and product judgment.
-- `ios-debug-and-stabilize`
-  - Triage crashes, warnings, state bugs, and shipping regressions.
-- `ios-hig-design`
-  - Design iPhone and iPad interfaces that feel native to Apple platforms.
-- `ios-navigation-and-ia`
-  - Choose better tab, drill-down, modal, and information architecture patterns.
-- `ios-settings-and-data-safety-ux`
-  - Design settings, sync, restore, destructive actions, and trust-sensitive flows.
-- `ios-forms-and-input-design`
-  - Improve forms, pickers, validation, save behavior, and keyboard/input decisions.
-- `ios-empty-states-and-first-run`
-  - Make onboarding, empty states, and first-session UX clearer and calmer.
-- `ios-motion-and-microinteractions`
-  - Add subtle motion, feedback, and haptics without making the app feel noisy.
-- `ios-interface-polish`
-  - Improve spacing, hierarchy, radii, feedback, and the invisible details that make apps feel finished.
-- `ios-adaptive-layout`
-  - Handle iPhone, iPad, safe areas, readable width, and layout changes more cleanly.
-- `ios-accessibility-design-review`
-  - Review Dynamic Type, contrast, hit targets, VoiceOver, and reduced motion support.
-- `ios-app-icon-optimization`
-  - Make the app icon clearer, more distinctive, and better suited to App Store browse and search.
-- `ios-app-icon-and-brand-system`
-  - Shape an app icon, lightweight brand system, and marketing consistency that still feel native.
-- `app-store-readiness`
-  - Preflight metadata, privacy, capabilities, and review risk.
-- `ios-app-store-optimization`
-  - Tighten App Store positioning, metadata, icon, and screenshot judgment without turning into generic ASO spam.
-- `solo-ios-release-flow`
-  - Run a sane release loop from local verification to TestFlight and App Store submission.
+Reusable agent skills. Copy into your agent's skills directory and invoke by name.
+
+**Foundation**
+- [ios-app-architecture](./skills/ios-app-architecture/) — Structure a solo-friendly SwiftUI codebase with clean boundaries
+- [swiftui-product-ui](./skills/swiftui-product-ui/) — Build real product screens with stronger hierarchy and product judgment
+- [ios-debug-and-stabilize](./skills/ios-debug-and-stabilize/) — Triage crashes, state bugs, warnings, and submission regressions
+
+**Native Design**
+- [ios-hig-design](./skills/ios-hig-design/) — Design interfaces that feel native to Apple platforms
+- [ios-navigation-and-ia](./skills/ios-navigation-and-ia/) — Choose better tab, drill-down, modal, and IA patterns
+- [ios-forms-and-input-design](./skills/ios-forms-and-input-design/) — Improve forms, pickers, validation, and keyboard decisions
+- [ios-empty-states-and-first-run](./skills/ios-empty-states-and-first-run/) — Make onboarding and empty states clearer and calmer
+- [ios-motion-and-microinteractions](./skills/ios-motion-and-microinteractions/) — Add subtle motion and haptics without making the app feel noisy
+- [ios-adaptive-layout](./skills/ios-adaptive-layout/) — Handle iPhone, iPad, safe areas, and layout changes cleanly
+
+**Polish & Review**
+- [ios-interface-polish](./skills/ios-interface-polish/) — Fix spacing, hierarchy, radii, feedback, and the invisible details that make apps feel finished
+- [ios-settings-and-data-safety-ux](./skills/ios-settings-and-data-safety-ux/) — Design settings, sync, restore, and trust-sensitive flows
+- [ios-accessibility-design-review](./skills/ios-accessibility-design-review/) — Review Dynamic Type, contrast, hit targets, and VoiceOver support
+
+**Icon & Brand**
+- [ios-app-icon-optimization](./skills/ios-app-icon-optimization/) — Make the app icon clearer, more distinctive, and better suited to App Store browse
+- [ios-app-icon-and-brand-system](./skills/ios-app-icon-and-brand-system/) — Shape an app icon, lightweight brand system, and consistent visual identity
+
+**Ship**
+- [app-store-readiness](./skills/app-store-readiness/) — Preflight metadata, privacy, capabilities, and review risk
+- [ios-app-store-optimization](./skills/ios-app-store-optimization/) — Tighten App Store positioning, metadata, and screenshot judgment
+- [solo-ios-release-flow](./skills/solo-ios-release-flow/) — Run a sane release loop from local verification to App Store submission
+
+---
 
 ## Guides
 
+Human-readable playbooks. Read when you're shaping a specific decision.
+
+- [How To Make SwiftUI Apps Feel Native](./guides/how-to-make-swiftui-apps-feel-native.md)
 - [How To Design A Clean iOS Settings Screen](./guides/how-to-design-a-clean-ios-settings-screen.md)
 - [How To Design An iOS App Icon That Gets Tapped](./guides/how-to-design-an-ios-app-icon-that-gets-tapped.md)
-- [How To Make SwiftUI Apps Feel Native](./guides/how-to-make-swiftui-apps-feel-native.md)
 - [How To Prep An Indie iOS App For App Store Review](./guides/how-to-prep-an-indie-ios-app-for-app-store-review.md)
+
+---
 
 ## Examples
 
-- [Examples Overview](./examples/README.md)
-- [Settings Sync Wording](./examples/settings-sync-wording.md)
-- [Empty State Next Action](./examples/empty-state-next-action.md)
-- [App Store Listing Tighten](./examples/app-store-listing-tighten.md)
+Short before/after examples showing applied playbook judgment.
+
+- [Settings Sync Wording](./examples/settings-sync-wording.md) — how to write trust-clear sync controls
+- [Empty State Next Action](./examples/empty-state-next-action.md) — how to turn a dead end into a next step
+- [App Store Listing Tighten](./examples/app-store-listing-tighten.md) — how to make a listing more credible and scannable
+- [Onboarding Copy Before/After](./examples/onboarding-copy-before-after.md) — how to shorten onboarding without losing clarity
+
+---
 
 ## Checklists
+
+Fast review passes. Use before shipping, submitting, or after a major refactor.
 
 - [Clean iOS UI Review](./checklists/clean-ios-ui-review.md)
 - [App Store Preflight](./checklists/app-store-preflight.md)
 - [App Store Listing Review](./checklists/app-store-listing-review.md)
 - [Accessibility Review](./checklists/accessibility-review.md)
 
+---
+
 ## References
 
 - [Official Apple iOS Design Links](./references/official-ios-design-links.md)
 
-## Use This Playbook
-
-Paste this directly into your agent:
-
-```text
-Install the skills from https://github.com/khbyong/ios-app-playbook into my local skills directory and make them available in this session.
-```
-
-If this playbook helps, star the repo to support it and follow updates.
-
-Fork it if you want to adapt the skills into your own workflow or publish your own version.
+---
 
 ## Install
 
-### Codex
-
-Copy chosen skill folders into:
-
-```bash
-~/.codex/skills/
-```
-
 ### Claude Code
 
-Copy chosen skill folders into:
+```bash
+cp -r skills/ios-app-architecture ~/.claude/skills/
+```
+
+Repeat for each skill you want available. Then invoke by name in your session.
+
+### Codex
 
 ```bash
-~/.claude/skills/
+cp -r skills/ios-app-architecture ~/.codex/skills/
 ```
 
 ### Generic Agent Setup
 
-If your agent supports `SKILL.md`-style folders, copy any skill directory from `skills/` into that agent’s skills directory.
+Any agent that supports `SKILL.md`-style folders: copy from `skills/` into your agent's skills directory.
+
+---
 
 ## Philosophy
 
-- SwiftUI first
-- native behavior over trend-chasing
-- trust-sensitive UX for settings, sync, and data
-- product polish without bloated process
-- ship with evidence, not vibes
+- SwiftUI first, UIKit only where the platform requires it
+- Native behavior over trend-chasing
+- Trust-sensitive UX for settings, sync, and data
+- Product polish without bloated process
+- Ship with evidence, not vibes
+
+---
 
 ## Notes
 
-- These skills are intentionally opinionated.
-- The goal is reusable judgment, not blind copying.
-- If your app already has strong conventions, preserve them unless they are causing real product or maintenance problems.
+These skills are intentionally opinionated. The goal is reusable judgment, not blind copying. If your app already has strong conventions, preserve them unless they're actively causing problems.
 
-Use [docs/adoption-guide.md](./docs/adoption-guide.md) for a practical setup path.
+See [docs/adoption-guide.md](./docs/adoption-guide.md) for a practical setup path.
+
+> A more implementation-heavy version of this playbook — with templates, scorecards, prompt packs, teardowns, and launch assets — may be available separately.
