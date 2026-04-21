@@ -32,13 +32,16 @@
     <path d="M281 376C281 370.477 285.477 366 291 366H306V400H291C285.477 400 281 395.523 281 390V376Z" fill="#F7D0C1"/>
     <text x="444" y="244" fill="#FFF8F4" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="48" font-weight="700">iOS App Playbook</text>
     <text x="444" y="292" fill="#F29B62" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="23" font-weight="600">Design, polish, and ship clean native iOS apps.</text>
-    <text x="444" y="340" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">Opinionated skills, guides, and checklists for SwiftUI builders</text>
-    <text x="444" y="372" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">who care about native feel, product judgment, and App Store quality.</text>
-    <rect x="444" y="408" width="166" height="44" rx="22" fill="#2A1F1A"/>
-    <text x="473" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Design</text>
-    <rect x="626" y="408" width="150" height="44" rx="22" fill="#2A1F1A"/>
-    <text x="661" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Polish</text>
-    <rect x="792" y="408" width="126" height="44" rx="22" fill="#2A1F1A"/>
-    <text x="826" y="437" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Ship</text>
+    <text x="444" y="338" fill="#D7C6BE" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="22" font-weight="500">
+      <tspan x="444" dy="0">Opinionated skills, guides, and checklists</tspan>
+      <tspan x="444" dy="30">for SwiftUI builders who care about native</tspan>
+      <tspan x="444" dy="30">feel, product judgment, and App Store quality.</tspan>
+    </text>
+    <rect x="444" y="414" width="166" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="473" y="443" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Design</text>
+    <rect x="626" y="414" width="150" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="661" y="443" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Polish</text>
+    <rect x="792" y="414" width="126" height="44" rx="22" fill="#2A1F1A"/>
+    <text x="826" y="443" fill="#FFF8F4" font-family="Inter, SF Pro Text, Arial, sans-serif" font-size="20" font-weight="600">Ship</text>
   </g>
 </svg>
