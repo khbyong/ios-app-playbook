@@ -23,4 +23,4 @@ A listing tried to sound broad and powerful, but the promise became vague and le
 ## Playbook Skills Behind It
 
 - `ios-app-store-optimization`
-- `ios-app-icon-optimization`
+- `ios-app-icon-and-brand-system`

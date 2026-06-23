@@ -1,6 +1,6 @@
 ---
 name: solo-ios-release-flow
-description: Use when shipping a SwiftUI app as a solo builder, including build verification, release cleanup, TestFlight prep, App Store Connect updates, and the final go/no-go checklist before pushing a release live.
+description: Use when coordinating the end-to-end release sequence for a prepared SwiftUI app, from final verification through TestFlight or App Store submission.
 ---
 
 # Solo iOS Release Flow
@@ -13,17 +13,17 @@ Ship with a repeatable loop. Do not improvise the final mile.
 2. run the relevant tests
 3. build the app in release conditions
 4. smoke test the main user flows
-5. verify store metadata matches the build
+5. run `app-store-readiness`
 6. archive and upload
 7. check processing, screenshots, and review notes
+
+Run `app-store-readiness` before the upload step. That skill is the go/no-go audit; this skill owns the order of operations. Use `ship-ios-build-one-command` only for the archive, sign, export, and upload step.
 
 ## Before You Upload
 
 - remove debug-only behavior
 - confirm version and build numbers
-- check app icons and launch assets
-- verify bundle IDs and capabilities
-- confirm any last-minute copy changes made it into the build
+- hand App Store metadata, privacy, capability, and reviewer-risk checks to `app-store-readiness`
 
 ## Solo Builder Priorities
 

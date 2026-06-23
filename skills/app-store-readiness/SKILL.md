@@ -1,11 +1,13 @@
 ---
 name: app-store-readiness
-description: Use when preparing an iOS app for TestFlight or App Store review, auditing metadata against the live build, checking privacy and capabilities, or reducing rejection risk before submission.
+description: Use when auditing a prepared iOS release for App Store or TestFlight submission risk, including metadata, privacy, capabilities, and reviewer-facing behavior.
 ---
 
 # App Store Readiness
 
 Submission quality is product quality plus review hygiene.
+
+This is the submission audit gate. It does not archive, upload, or release the build. Use `solo-ios-release-flow` for the release sequence and `ship-ios-build-one-command` for the archive-to-upload operation.
 
 ## Audit In This Order
 

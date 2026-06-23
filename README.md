@@ -69,8 +69,7 @@ Reusable agent skills. Copy into your agent's skills directory and invoke by nam
 - [ios-accessibility-design-review](./skills/ios-accessibility-design-review/) — Review Dynamic Type, contrast, hit targets, and VoiceOver support
 
 **Icon & Brand**
-- [ios-app-icon-optimization](./skills/ios-app-icon-optimization/) — Make the app icon clearer, more distinctive, and better suited to App Store browse
-- [ios-app-icon-and-brand-system](./skills/ios-app-icon-and-brand-system/) — Shape an app icon, lightweight brand system, and consistent visual identity
+- [ios-app-icon-and-brand-system](./skills/ios-app-icon-and-brand-system/) — Design and review an app icon, lightweight brand system, and App Store-facing visual identity
 
 **Ship**
 - [app-store-readiness](./skills/app-store-readiness/) — Preflight metadata, privacy, capabilities, and review risk

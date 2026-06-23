@@ -9,7 +9,7 @@ Marketing screenshots should be the real app, rendered, not a div pretending to 
 
 A CSS mockup drifts from the product the moment you ship a UI change. A real render stays honest, and the listing keeps matching the first-run experience. Build screenshots in two stages: render real views from the app, then compose those PNGs into App Store sizes.
 
-For what the screenshots should say, see ios-app-store-optimization. This skill is only about how to produce them.
+For what the screenshots should say, see `ios-app-store-optimization`. This skill only produces the files from that approved direction; it does not decide the listing message or visual identity.
 
 ## The Two Stages
 
