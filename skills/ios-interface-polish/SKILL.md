@@ -1,6 +1,6 @@
 ---
 name: ios-interface-polish
-description: Use when an iOS app already works but still feels slightly off. Focus on spacing, radius logic, visual hierarchy, motion restraint, feedback, numeric alignment, and the small details that make native apps feel finished.
+description: Use after an iOS screen or flow works, when its visual execution, tactile feedback, or optical consistency still feels unfinished.
 ---
 
 # iOS Interface Polish
@@ -14,6 +14,8 @@ Polish is usually not a big redesign. It is a series of small corrections that r
 - cards, rows, sheets, and grouped settings that need refinement
 - SwiftUI interfaces that feel web-shaped instead of iOS-shaped
 
+Use after the screen works. For information architecture, feature requirements, accessibility compliance, or motion behavior, use the corresponding specialist skill first.
+
 ## Polish Rules
 
 - make spacing feel intentional, not evenly distributed by default
@@ -24,13 +26,12 @@ Polish is usually not a big redesign. It is a series of small corrections that r
 - keep shadows soft and sparse
 - use tabular numbers for changing totals, prices, and stats
 - make touch feedback subtle and consistent
-- use motion to confirm or guide, never to decorate
+- preserve the motion decisions already established by `ios-motion-and-microinteractions`
 
 ## Common Fixes
 
 - reduce visual clutter before adding styling
 - turn hard dividers into whitespace when the layout can support it
-- widen hit areas even if the visible control stays small
 - tighten row layouts so labels and values read as pairs
 - remove one-off font weights, opacities, and radii that weaken consistency
 - make exits calmer than entrances
@@ -49,4 +50,4 @@ Polish is usually not a big redesign. It is a series of small corrections that r
 - thick borders everywhere
 - overusing haptics
 - scaling or bouncing every interaction
-- adding polish details that fight accessibility or readability
+- using visual polish to mask unclear behavior or inaccessible interaction

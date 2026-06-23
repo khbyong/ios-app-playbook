@@ -1,6 +1,6 @@
 ---
 name: ios-hig-design
-description: Use when designing or reviewing iPhone and iPad interfaces that need to feel native to Apple platforms. Covers safe areas, navigation, typography, controls, accessibility, SF Symbols, motion, and HIG-aligned product decisions for SwiftUI or UIKit apps.
+description: Use when establishing or auditing the Apple-platform baseline for an iPhone or iPad interface, especially native conventions, system constraints, and HIG-aligned decisions.
 ---
 
 # iOS HIG Design
@@ -10,6 +10,18 @@ Design for the platform people think they are using, not a generic mobile app.
 This skill is a distilled public playbook inspired by Apple's Human Interface Guidelines and adapted for practical solo-product work.
 
 See official references in [references/hig-links.md](references/hig-links.md).
+
+## Use This As The Baseline
+
+Use this skill to establish platform conventions before designing a feature or audit a screen against those conventions. It is not the owner of feature-specific decisions:
+
+- navigation structure: `ios-navigation-and-ia`
+- forms and input: `ios-forms-and-input-design`
+- first run and empty states: `ios-empty-states-and-first-run`
+- adaptive layouts: `ios-adaptive-layout`
+- accessibility audit: `ios-accessibility-design-review`
+- motion and haptics: `ios-motion-and-microinteractions`
+- post-build visual refinement: `ios-interface-polish`
 
 ## Core Principles
 
@@ -38,7 +50,7 @@ See official references in [references/hig-links.md](references/hig-links.md).
 
 If a layout fights the notch, Dynamic Island, tab bar, or home indicator, it is not done.
 
-## Navigation
+## Navigation Baseline
 
 - use tab bars for primary destinations
 - use navigation stacks for hierarchy
@@ -67,7 +79,7 @@ If a layout fights the notch, Dynamic Island, tab bar, or home indicator, it is 
 - if using branded color, apply it where it improves recognition or action priority
 - depth should support hierarchy, not become the whole visual system
 
-## Accessibility
+## Accessibility Baseline
 
 - every important control needs a usable label
 - support Dynamic Type
@@ -75,7 +87,7 @@ If a layout fights the notch, Dynamic Island, tab bar, or home indicator, it is 
 - make empty, loading, and error states understandable without visual guesswork
 - test with VoiceOver or Accessibility Inspector for important flows
 
-## Motion
+## Motion Baseline
 
 - use motion to explain transitions, hierarchy, and cause-effect
 - avoid decorative motion that delays utility work

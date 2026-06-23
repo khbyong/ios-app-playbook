@@ -1,11 +1,13 @@
 ---
 name: ios-app-store-optimization
-description: Use when improving an iOS App Store listing after the build is real. Focus on tighter metadata, honest feature claims, stronger icon and screenshot judgment, and clearer conversion-oriented positioning without drifting into generic mobile marketing advice.
+description: Use when shaping the conversion strategy for a real iOS App Store listing: positioning, metadata, the listing promise, and the message each visual asset must convey.
 ---
 
 # iOS App Store Optimization
 
 Good App Store optimization starts with a real product, not keyword stuffing.
+
+This skill owns listing strategy and asset direction. It does not design or produce the assets. Use `ios-app-icon-and-brand-system` for the icon and visual identity, and `app-store-screenshot-pipeline` to produce the screenshot files.
 
 ## Optimize In This Order
 

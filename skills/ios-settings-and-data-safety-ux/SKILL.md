@@ -7,6 +7,8 @@ description: Use when designing iOS settings screens and trust-sensitive flows i
 
 Clarity is a safety feature.
 
+This skill owns the meaning and wording of sync, restore, storage, import, export, permission, and destructive actions. Use `swiftui-product-ui` for the surrounding screen composition and `app-store-readiness` to audit the shipped behavior before submission.
+
 ## Rules
 
 - do not label a status check as a sync

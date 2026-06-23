@@ -27,6 +27,8 @@ One end-to-end path for building and shipping a polished iOS app:
 | 5. Polish | [ios-interface-polish](./skills/ios-interface-polish/) |
 | 6. App Store Preflight | [app-store-readiness](./skills/app-store-readiness/) + [checklist](./checklists/app-store-preflight.md) |
 | 7. Launch | [solo-ios-release-flow](./skills/solo-ios-release-flow/) |
+| 8. Real Screenshots | [app-store-screenshot-pipeline](./skills/app-store-screenshot-pipeline/) |
+| 9. Featuring | [app-store-featuring-nomination](./skills/app-store-featuring-nomination/) |
 
 Use the full path for new apps. Jump to any stage when iterating on something specific.
 
@@ -67,13 +69,15 @@ Reusable agent skills. Copy into your agent's skills directory and invoke by nam
 - [ios-accessibility-design-review](./skills/ios-accessibility-design-review/) — Review Dynamic Type, contrast, hit targets, and VoiceOver support
 
 **Icon & Brand**
-- [ios-app-icon-optimization](./skills/ios-app-icon-optimization/) — Make the app icon clearer, more distinctive, and better suited to App Store browse
-- [ios-app-icon-and-brand-system](./skills/ios-app-icon-and-brand-system/) — Shape an app icon, lightweight brand system, and consistent visual identity
+- [ios-app-icon-and-brand-system](./skills/ios-app-icon-and-brand-system/) — Design and review an app icon, lightweight brand system, and App Store-facing visual identity
 
 **Ship**
 - [app-store-readiness](./skills/app-store-readiness/) — Preflight metadata, privacy, capabilities, and review risk
 - [ios-app-store-optimization](./skills/ios-app-store-optimization/) — Tighten App Store positioning, metadata, and screenshot judgment
 - [solo-ios-release-flow](./skills/solo-ios-release-flow/) — Run a sane release loop from local verification to App Store submission
+- [ship-ios-build-one-command](./skills/ship-ios-build-one-command/) — One-command archive, sign, export, and upload to App Store Connect (the automation under solo-ios-release-flow)
+- [app-store-screenshot-pipeline](./skills/app-store-screenshot-pipeline/) — Produce App Store screenshots from real app renders in two stages (headless simulator export, then compose to device sizes), with the gotchas that make it work
+- [app-store-featuring-nomination](./skills/app-store-featuring-nomination/) — Submit an App Store featuring nomination (type, fields, timing) and hold realistic expectations
 
 ---
 
@@ -85,6 +89,7 @@ Human-readable playbooks. Read when you're shaping a specific decision.
 - [How To Design A Clean iOS Settings Screen](./guides/how-to-design-a-clean-ios-settings-screen.md)
 - [How To Design An iOS App Icon That Gets Tapped](./guides/how-to-design-an-ios-app-icon-that-gets-tapped.md)
 - [How To Prep An Indie iOS App For App Store Review](./guides/how-to-prep-an-indie-ios-app-for-app-store-review.md)
+- [How To Ship And Launch An iOS Update](./guides/how-to-ship-and-launch-an-ios-update.md)
 
 ---
 
